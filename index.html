@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Sorteo PS5: Gana una consola PS5® y unos auriculares PS VR2">
+    <title>Sorteo PS5</title>
+    <link rel="icon" type="image/png" href="/img/favicon/favicon-16x16.png" sizes="16x16">
+<link rel="icon" type="image/png" href="img/favicon/favicon-32x32.png" sizes="32x32">
+<link rel="icon" type="image/png" href="/img/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="stylesheet" href="src/output.css">
+    <link rel="stylesheet" href="src/aos.css">
+</head>
+<body>
+<div id="wrapper" class="min-h-screen pattern overflow-hidden">
+<header class="flex flex-wrap justify-center items-center bg-black bg-opacity-70 py-5">
+    <h1 class="text-white mx-2 ">Concurso</h1>
+    <img class="max-w-xs w-3/4" src="img/ps5-logo.png" alt="Logo PS5">
+</header>
+ <section id="premios" class="text-center pt-8">
+<h2 data-aos="fade"  data-aos-duration="1500" class="[text-shadow:_5px_5px_10px_rgb(0_0_0_/_50%)] mb-4 text-white"><span class="texto-destacado">Gana una consola PS5®</span> <br> y unos auriculares PS VR2</h2>
+<div class="boton-mobile flex justify-center"><a href="#formulario-concurso" class="bg-secondary text-primary-dark-20 font-semibold p-2 px-8 rounded-lg shadow-lg">Participar</a>
+</div>
+<div class="relative w-full max-w-3xl h-3/4 min-h-64 z-10 mx-auto premios-movimiento">
+    <img data-aos="fade-up" class="absolute top-0 left-3 w-9/12" src="img/ps5-slim-1.png" alt="Consola PS5">
+    <img data-aos="fade-left" data-aos-delay="100" class="absolute top-1/4 right-0 w-2/4" src="img/ps5-slim-2.png" alt="Mando PS5">
+    <img data-aos="fade-up-right" data-aos-delay="300" class="absolute top-1/2 -left-16 w-full " src="img/vr-headset.webp" alt="vr PS5">
+</div>
+<picture  class="img-movil">
+    <source srcset="img/premios-movil.webp" media="(max-width:576px)"  type="image/webp">
+    <source srcset="img/premios-tablet.webp" type="image/webp">
+    <source srcset="img/premios-movil.png" media="(max-width:576px)"  type="image/png">
+    <img src="img/premios-tablet.png" alt="Premios sorteo PS5">
+</picture>
+ </section>
+ <div id="descripcion" class="text-center pb-5 z-20">
+    <button class="text-white border-white border-2 px-6 py-3 mx-4 rounded-2xl hover:bg-primary">
+        Especificaciones Sony PlayStation 5
+    </button>
+</div>
+<aside id="formulario-concurso" class="relative px-6 flex justify-center items-center overflow-hidden">
+    <div id="formulario" class="my-6 z-10 max-w-md card px-8 py-6 rounded-lg bg-blue-950 bg-opacity-80">
+    <h2 class="text-center">Entra en el sorteo</h2>
+        <form class="my-6">
+            <input class="form-input p-2 my-2 rounded w-[100%]" placeholder="Nombre" type="text" required>
+            <input class="form-input p-2 my-2 rounded w-[100%]" placeholder="Email" type="email" required>
+            <input class="form-input p-2 my-2 rounded w-[100%]" placeholder="Teléfono" type="text" pattern="[0-9]{9}" minlength="9" maxlength="9" required>
+            <input class="form-checkbox my-2" type="checkbox" name="condiciones" id="condiciones" required >
+            <label class="text-white" for="condiciones"
+              >He leido y acepto las
+              <a class="text-primary-light-20 hover:text-secondary" href="#" target="_blank">condiciones</a></label>
+            <div class="flex justify-center"><button class="bg-primary hover:bg-secondary text-white hover:text-primary-dark-20 font-semibold p-2 mt-3 rounded-lg w-[50%]">Enviar</button></div>
+          </form>
+        </div>
+        <video class="absolute difuminado w-full" autoplay loop muted poster="img/poster-video-ps5.jpg">
+            <source src="img/ps5-feel-it-now-video.webm" type="video/webm">
+            <source src="img/ps5-feel-it-now-video.mp4" type="video/mp4">
+        </video>
+        <picture  class="absolute difuminado w-full h-full object-cover img-movil">
+            <source srcset="img/poster-video-ps5-movil.webp" media="(max-width:576px)"  type="image/webp">
+            <source srcset="img/poster-video-ps5-tablet.webp" type="image/webp">
+            <source srcset="img/poster-video-ps5-movil.jpg" media="(max-width:576px)"  type="image/png">
+            <img class="w-full h-full object-cover" src="img/poster-video-ps5-tablet.jpg" alt="fondo videojuego">        
+        </picture>
+    </aside>
+<footer class="text-center text-white bg-black p-6 px-auto z-40 2xl:bg-black">
+    <div class="flex gap-4 items-center flex-wrap justify-center">
+        <p>Compartir: </p>
+        <div class="flex gap-4 items-center">
+            <a href="#">
+                <div class="bg-primary-light-20 rounded-full p-2 hover:bg-secondary"><img src="img/whatsapp.svg" width="24" height="24" alt="icono whatsapp"></div>
+            </a>
+            <a href="#">
+                <div class="bg-primary-light-20 rounded-full p-2 hover:bg-secondary"><img src="img/icons_x.svg" width="24" height="24" alt="icono x"></div>
+            </a>
+            <a href="#">
+                <div class="bg-primary-light-20 rounded-full p-2 hover:bg-secondary"><img src="img/instagram.svg" width="24" height="24" alt="icono instagram"></div>
+            </a>
+            <a href="#">
+                <div class="bg-primary-light-20 rounded-full p-2 hover:bg-secondary"><img src="img/facebook-f.svg" width="24" height="24" alt="icono facebook"></div>
+            </a>
+        </div>
+    </div>
+    <div><p><a class="hover:text-secondary" href="#">Bases legales</a>  |  <a class="hover:text-secondary"  href="/404.html">Contacto</a></p></div>
+</footer>
+</div>
+<script src="js/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+</body>
+</html>
